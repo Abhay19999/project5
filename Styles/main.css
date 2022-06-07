@@ -1,0 +1,52 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-image: url(./images/background-imgjpg.jpg);
+  padding: 50px 50px;
+}
+
+.image1 {
+  width: 40%;
+  margin: 30px 30px 50px;
+  float: right;
+}
+
+.content1 p {
+  font-size: large;
+  margin-right: 45rem;
+}
+
+.content2 {
+  margin-right: 50rem;
+  float: right;
+}
+.content3 {
+  margin: 0 0 10rem 50rem;
+}
+.image2 {
+  width: 30%;
+}
+.content4 {
+  margin-left: 5rem;
+}
+.image3 {
+  width: 30%;
+}
+.card1 {
+  width: 50%;
+}
+.card2 {
+  width: 50%;
+}
+footer {
+  border: 3px solid #e7e7e7;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 2%;
+  font-weight: bolder;
+  font-size: larger;
+}

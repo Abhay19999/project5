@@ -1,0 +1,100 @@
+img {
+  float: left;
+  width: 17em;
+  background-color: aliceblue;
+}
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(Images/background1.jpg);
+}
+.bar {
+  overflow: hidden;
+  background-color: aliceblue;
+}
+.bar a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.bar a:hover {
+  background-color: gray;
+  color: black;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 27px;
+}
+#content {
+  max-width: 300px;
+  margin: 0;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  float: right;
+  padding-right: 5%;
+}
+
+#price {
+  color: grey;
+  font-size: 26px;
+}
+#content button {
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 30%;
+  font-size: 13px;
+}
+
+#content button:hover {
+  background-color: gray;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+.abhayr {
+  float: right;
+}
+
+.content1 {
+  max-width: 300px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-right: thick solid black;
+  padding-right: 410px;
+  margin-right: 1px;
+  margin: 0%;
+}
+.price1 {
+  color: grey;
+  font-size: 26px;
+}
+.content1 button {
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 30%;
+  font-size: 13px;
+}
+.content1 button :hover {
+  background-color: gray;
+}
+
+footer {
+  border: 3px solid #e7e7e7;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 2%;
+  font-weight: bolder;
+  font-size: larger;
+}
+.space {
+  padding-right: 50%;
+}
