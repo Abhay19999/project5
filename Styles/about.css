@@ -1,13 +1,9 @@
-* {
-  margin: 0%;
-}
-
 body{
   background-color: lightblue;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 #wrapper{
-  margin:30px;
+  margin:30px 22px;
   border: 1px solid;
   box-shadow: 5px 10px 4px #888888;
 }
@@ -38,53 +34,50 @@ header a{
 /* Main begins */
 main{
   background-color: aliceblue;
+  padding:40px;
 }
 
-li {
-  display: inline;
-}
-li a {
-  color: #666;
-  padding: 25px;
-  text-decoration: none;
-  font-size: larger;
-  font-weight: bolder;
-}
-li a:hover {
-  background-color: rgb(255, 255, 255);
-}
+/* header {
+  text-align: center;
+  color: white;
+  background-image: url(./images/background-imgjpg.jpg);
+  padding: 50px 50px;
+} */
 
-.right {
+.image1 {
+  width: 40%;
+  margin: 30px 30px 50px;
   float: right;
 }
-main .back-img {
-  background-position: center;
-  width: 100%;
+
+.content1 p {
+  font-size: large;
+  margin-right: 45rem;
 }
-.heading {
-  margin-top: 3%;
-  text-align: center;
+
+.content2 {
+  margin-right: 50rem;
+  float: right;
 }
-.cards {
-  display: flex;
+.content3 {
+  margin: 0 0 10rem 50rem;
 }
-.med-card {
-  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0, 2);
+.image2 {
   width: 30%;
-  margin: 2% 0 5% 10%;
 }
-.med-card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+.content4 {
+  margin-left: 5rem;
 }
-.med-card img {
-  width: 100%;
+.image3 {
+  width: 30%;
 }
-.med-container {
-  padding: 2px 16px;
+.card1 {
+  width: 50%;
 }
-.med-container p {
-  letter-spacing: 1px;
+.card2 {
+  width: 50%;
 }
+
 
 /* Main ends */
 
